@@ -42,55 +42,114 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="icon" href="asset/logo.png" type="image/x-icon">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
   </head>
   <body>
+
     <!-- Header start -->
     <header class="bg-transparent w-full fixed top-0 z-50 transition duration-300 ease-in-out">
-      <div class="container">
-        <div class="flex items-center justify-between relative lg:mx-12">
-          <!-- Kiri: Logo -->
-           <div class="flex items-start gap-4 px-4">
-            <img class="w-18 h-12" src="asset/svlk.png" alt="logo">
-            <img class="w-12 h-12 mt-1" src="asset/Rootecraft_logo_trans.png" alt="logo">
-            <div class="flex flex-col leading-tight">
-              <a href="#home" class="font-bold text-milk text-base lg:text-2xl hover:text-primary">Rootecraft</a>
-              <p class="text-sm lg:text-base text-milk hover:text-primary">UD Bola Besar</p>
-            </div>
-          </div>
-          <div class="flex items-center relative">
-            <button id="burger" name="burger" type="button" class="block absolute right-4 lg:hidden">
-              <span class="burger-line transition duration-300 ease-in-out origin-top-left"></span>
-              <span class="burger-line transition duration-300 ease-in-out origin-right"></span>
-              <span class="burger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-            </button>
-          </div>
-          <nav id="nav-menu" class="invisible absolute w-full lg:w-fit top-16 right-0 px-4 py-4 lg:visible lg:static lg:bg-transparent lg:max-w-full bg-dark border-b-4 border-primary lg:border-0 rounded-xl">
-          <ul class="flex items-center gap-6 text-sm">
-            <div class="text-center lg:gap-6 lg:flex mr-0 lg:mr-5">
-              <li><a href="#home" class="font-bold justify-center text-xs lg:text-base py-2 flex text-milk hover:text-primary">Home</a></li>
-              <li><a href="#About Us" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">About Us</a></li>
-              <li><a href="#Value" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Value</a></li>
-              <li><a href="#Masterpiece" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Masterpiece</a></li>
-              <li><a href="#Gallery" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Gallery</a></li>
-              <li><a href="#Articles" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Articles</Article></a></li>
-              <li><a href="#Team" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Team</a></li>
-              <li><a href="#Contact" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Contact</a></li>             
-            </div>
-          </ul>
-          </nav>
+    <div class="container">
+    <div class="flex items-center justify-between relative lg:mx-12">
+      
+      <!-- Kiri: Logo -->
+      <div class="flex items-start gap-4 px-4">
+        <img class="w-18 h-12" src="asset/logo/avif/svlk.avif" alt="logo svlk">
+        <img class="w-12 h-12 mt-1" src="asset/logo/avif/Rootecraft_logo_trans.avif" alt="logo rootecraft">
+        <div class="flex flex-col leading-tight">
+          <a href="#home" class="font-bold text-milk text-base lg:text-2xl hover:text-primary">
+            Rootecraft
+          </a>
+          <p class="text-sm lg:text-base text-milk hover:text-primary">
+            UD Bola Besar
+          </p>
         </div>
       </div>
-    </header>
-    <!-- Header end -->
+
+      <!-- Burger Menu (Mobile) -->
+      <div class="flex items-center relative">
+        <button id="burger" name="burger" type="button" class="block absolute right-4 lg:hidden">
+          <span class="burger-line transition duration-300 ease-in-out origin-top-left"></span>
+          <span class="burger-line transition duration-300 ease-in-out origin-right"></span>
+          <span class="burger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+        </button>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav id="nav-menu" 
+           class="invisible absolute w-full lg:w-fit top-16 right-0 px-4 py-4 lg:visible lg:static lg:bg-transparent lg:max-w-full bg-dark border-b-4 border-primary lg:border-0 rounded-xl">
+        <ul class="flex items-center gap-6 text-sm">
+          <div class="text-center lg:gap-6 lg:flex mr-0 lg:mr-5">
+            <li>
+              <a href="#home" class="font-bold justify-center text-xs lg:text-base py-2 flex text-milk hover:text-primary">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#About Us" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#Value" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                Value
+              </a>
+            </li>
+            <li>
+              <a href="#Masterpiece" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                Masterpiece
+              </a>
+            </li>
+            <li>
+              <a href="#Gallery" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#Articles" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                Articles
+              </a>
+            </li>
+            <li>
+              <a href="#Team" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                Team
+              </a>
+            </li>
+            <li>
+              <a href="#Contact" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">
+                Contact
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+<!-- Header end -->
+
 
     <!-- Hero section start -->
 <section id="home" class="relative h-[620px] lg:h-[690px] flex items-center justify-center text-center overflow-hidden">
   <!-- Background -->
-  <img
-    src="asset/bgherosec.webp"
+
+  <picture>
+  <!-- AVIF -->
+  <source srcset="asset/bgherosec.avif" type="image/avif" />
+
+  <!-- WebP -->
+  <source srcset="asset/bgherosec.webp" type="image/webp" />
+
+  <!-- Fallback (jpg/png) -->
+  <img 
+    src="asset/bgherosec.jpg" 
     alt="bg"
     class="absolute inset-0 -z-50 w-full h-full object-cover opacity-20"
+    loading="eager"
+    fetchpriority="high"
   />
+</picture>
 
   <!-- Konten -->
   <div class="relative z-10 max-w-3xl mx-auto px-4">
@@ -135,7 +194,6 @@
           </iframe> 
         </div>
       </div>
-
   </div>
 </section>
 <!-- ABOUT US END -->
@@ -149,7 +207,7 @@
         <div class="flex flex-wrap justify-center">
           <!-- Value 1: Expert craftmanship -->
           <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-              <img src="asset/val1.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;">
+              <img src="asset/val1.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;" loading="lazy">
               <h3 class="lg:text-xl text-xs font-semibold text-primary mt-4">Sustainability & Eco-Friendly</h3>
               <p class=" text-xs lg:text-base text-white mt-2">
                 We use reclaimed teak wood from legal, well-managed forests under Perhutani supervision, ensuring a fully traceable and sustainable supply chain. Nothing is wasted — every root becomes art</p>
@@ -157,7 +215,7 @@
           </div>
           <!-- Value 2: Custom Design -->
           <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-              <img src="asset/val2.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;">
+              <img src="asset/val2.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;" loading="lazy">
               <h3 class="lg:text-xl text-xs font-semibold text-primary mt-4">Direct From Artisan</h3>
               <p class="text-xs lg:text-base text-white mt-2">
                 We cut out the middleman to give you better prices and a closer connection to the maker. Authenticity meets efficiency<p class="text-xs lg:text-base text-white mt-2">“From village to villa — directly.”</p>
@@ -165,7 +223,7 @@
           </div>
           <!-- Value 3: Durability -->
           <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-              <img src="asset/val3.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;">
+              <img src="asset/val3.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;" loading="lazy">
               <h3 class="lg:text-xl text-xs font-semibold text-primary mt-4">Empowering Local Hand</h3>
               <p class="text-xs lg:text-base text-white mt-2">
                 Each piece is handcrafted by artisans from Java’s rural highlands. By working directly with our communities, we preserve tradition while creating real economic impact<p class="text-xs lg:text-base text-white mt-2">“Crafted by hands. Sustained by heart.”
@@ -173,7 +231,7 @@
           </div>
           <!-- Value 4: Innovation -->
           <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-              <img src="asset/val4.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;">
+              <img src="asset/val4.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;" loading="lazy">
               <h3 class="lg:text-xl text-xs font-semibold text-primary mt-4">Fast & Reliable Lead Time</h3>
               <p class="text-xs lg:text-base text-white mt-2">
                 With over 25 years of experience, and a network of 93 skilled artisans across 33 production sites, we ensure timely delivery without compromising on quality</p>
@@ -181,7 +239,7 @@
           </div>
           <!-- Value 3: Durability -->
           <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-              <img src="asset/val5.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;">
+              <img src="asset/val5.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;" loading="lazy">
               <h3 class="lg:text-xl text-xs font-semibold text-primary mt-4">Uniqueli Handmade</h3>
               <p class="text-xs lg:text-base text-white mt-2">
                 No replicas. No shortcuts. Every item is one-of-a-kind, hand-finished from strong, long-lasting teak wood — built to last, built to impress
@@ -191,7 +249,7 @@
           </div>
           <!-- Value 3: Durability -->
           <div class="w-full md:w-1/2 px-4 mb-8 text-center">
-              <img src="asset/val6.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;">
+              <img src="asset/val6.png" alt="Expert Craft Icon" style="height: 4rem; margin: 0 auto;" loading="lazy">
               <h3 class="lg:text-xl text-xs font-semibold text-primary mt-4">Custom Design</h3>
               <p class="text-xs lg:text-base text-white mt-2">
                 We bring your design ideas to life — whether you're a hotel, gallery, or designer
@@ -207,57 +265,204 @@
 
 <!-- New masterpiece -->
 <section id="Masterpiece" class="py-10">
-  <div id="custom-controls-gallery" class="relative w-full" data-carousel="slide"><p class="pb-12 py-12 text-lg lg:text-4xl font-bold text-primary text-center">Masterpiece</p>
+  <div id="custom-controls-masterpiece" class="relative w-full" data-carousel="slide"><p class="pb-12 py-12 text-lg lg:text-4xl font-bold text-primary text-center">Masterpiece</p>
     <!-- Carousel wrapper -->
     <div class="relative h-[448px] mx-6 rounded-lg overflow-hidden">
          <!-- Item 1 -->
-        <div class="hidden duration-700 ease-linear" data-carousel-item>
-            <img src="asset/mp1.png" class="absolute block max-w-full h-[360] lg:h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="asset/mp2.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Round teak root stools handmade from reclaimed wood mosaic for eco-style interior design">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="asset/mp3.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Driftwood heart sculptures handmade from reclaimed teak root for rustic home decoration">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="asset/mp4.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handcrafted teak root anchor sculptures eco-friendly nautical décor by Indonesian artisans">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="asset/mp5.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Rustic teak root Christmas tree sculptures handmade from driftwood for holiday décor">
-        </div>
-        <!-- Item 6 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp6.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Unique guitar sculpture made from teak wood mosaic handcrafted by Indonesian artisans">
-      </div><!-- Item 5 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp7.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handmade driftwood wall art starburst design eco-style home decoration">
-      </div><!-- Item 5 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp8.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Round teak root wall art panel with square wood mosaic handcrafted décor">
-      </div><!-- Item 5 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp9.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Rustic round teak root wall décor with natural wood slice pattern handmade in Indonesia">
-      </div><!-- Item 5 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp10.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handcrafted teak root king sculpture made from reclaimed driftwood by Indonesian artisans">
-      </div>
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp11.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Rustic elephant sculpture handmade from teak root driftwood eco-friendly décor">
-      </div>
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp12.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Unique heart-shaped teak root bench handmade from reclaimed wood Indonesia">
-      </div>
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp13.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handmade teak root deer sculpture rustic eco-style home and garden decoration">
-      </div>
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/mp14.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Driftwood flamingo sculpture handmade from teak root for eco-friendly décor">
-      </div>
+<div class="hidden duration-700 ease-linear" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp1.avif" type="image/avif" />
+    <source srcset="asset/mp1.webp" type="image/webp" />
+    <img 
+      src="asset/mp1.jpg"
+      class="absolute block max-w-full h-[360px] lg:h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt=""
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 2 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp2.avif" type="image/avif" />
+    <source srcset="asset/mp2.webp" type="image/webp" />
+    <img 
+      src="asset/mp2.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Round teak root stools handmade from reclaimed wood mosaic for eco-style interior design"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 3 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp3.avif" type="image/avif" />
+    <source srcset="asset/mp3.webp" type="image/webp" />
+    <img 
+      src="asset/mp3.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Driftwood heart sculptures handmade from reclaimed teak root for rustic home decoration"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 4 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp4.avif" type="image/avif" />
+    <source srcset="asset/mp4.webp" type="image/webp" />
+    <img 
+      src="asset/mp4.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Handcrafted teak root anchor sculptures eco-friendly nautical décor by Indonesian artisans"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 5 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp5.avif" type="image/avif" />
+    <source srcset="asset/mp5.webp" type="image/webp" />
+    <img 
+      src="asset/mp5.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Rustic teak root Christmas tree sculptures handmade from driftwood for holiday décor"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 6 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp6.avif" type="image/avif" />
+    <source srcset="asset/mp6.webp" type="image/webp" />
+    <img 
+      src="asset/mp6.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Unique guitar sculpture made from teak wood mosaic handcrafted by Indonesian artisans"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 7 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp7.avif" type="image/avif" />
+    <source srcset="asset/mp7.webp" type="image/webp" />
+    <img 
+      src="asset/mp7.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Handmade driftwood wall art starburst design eco-style home decoration"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 8 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp8.avif" type="image/avif" />
+    <source srcset="asset/mp8.webp" type="image/webp" />
+    <img 
+      src="asset/mp8.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Round teak root wall art panel with square wood mosaic handcrafted décor"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 9 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp9.avif" type="image/avif" />
+    <source srcset="asset/mp9.webp" type="image/webp" />
+    <img 
+      src="asset/mp9.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Rustic round teak root wall décor with natural wood slice pattern handmade in Indonesia"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 10 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp10.avif" type="image/avif" />
+    <source srcset="asset/mp10.webp" type="image/webp" />
+    <img 
+      src="asset/mp10.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Handcrafted teak root king sculpture made from reclaimed driftwood by Indonesian artisans"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 11 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp11.avif" type="image/avif" />
+    <source srcset="asset/mp11.webp" type="image/webp" />
+    <img 
+      src="asset/mp11.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Rustic elephant sculpture handmade from teak root driftwood eco-friendly décor"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 12 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp12.avif" type="image/avif" />
+    <source srcset="asset/mp12.webp" type="image/webp" />
+    <img 
+      src="asset/mp12.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Unique heart-shaped teak root bench handmade from reclaimed wood Indonesia"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 13 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp13.avif" type="image/avif" />
+    <source srcset="asset/mp13.webp" type="image/webp" />
+    <img 
+      src="asset/mp13.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Handmade teak root deer sculpture rustic eco-style home and garden decoration"
+      loading="lazy"
+    />
+  </picture>
+</div>
+
+<!-- Item 14 -->
+<div class="hidden duration-700 ease-in-out" data-carousel-item>
+  <picture>
+    <source srcset="asset/masterpiece/avif/mp14.avif" type="image/avif" />
+    <source srcset="asset/mp14.webp" type="image/webp" />
+    <img 
+      src="asset/mp14.jpg"
+      class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      alt="Driftwood flamingo sculpture handmade from teak root for eco-friendly décor"
+      loading="lazy"
+    />
+  </picture>
+</div>
     </div>
     <div class="flex justify-center items-center pt-4">
         <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
@@ -287,113 +492,260 @@
   
 
     <!-- Gallery -->
-    <section id="Gallery" class="py-10">
-<div id="custom-controls-gallery" class="relative w-full" data-carousel="slide"><p class="pb-12 py-12 text-lg lg:text-4xl font-bold text-primary text-center">Gallery</p>
-  <!-- Carousel wrapper -->
-  <div class="relative h-[448px] mx-6 rounded-lg overflow-hidden">
-       <!-- Item 1 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/16.jpeg" class="absolute block max-w-full h-[360] lg:h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-      </div>
-      <!-- Item 2 -->
+<!-- Gallery -->
+<section id="Gallery" class="py-10">
+  <div id="custom-controls-gallery" class="relative w-full" data-carousel="slide">
+    <p class="pb-12 py-12 text-lg lg:text-4xl font-bold text-primary text-center">Gallery</p>
+    
+    <!-- Carousel wrapper -->
+    <div class="relative h-[448px] mx-6 rounded-lg overflow-hidden">
+
+      <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-          <img src="asset/p1.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Indonesian artisan cutting reclaimed teak root wood at Rootecraft workshop">
+        <picture>
+          <source srcset="asset/gallery/avif/1.avif" type="image/avif" />
+          <source srcset="asset/16.webp" type="image/webp" />
+          <img src="asset/16.jpeg"
+               class="absolute block max-w-full h-[360px] lg:h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 1"
+               loading="lazy" />
+        </picture>
       </div>
+
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p1.avif" type="image/avif" />
+          <source srcset="asset/p1.webp" type="image/webp" />
+          <img src="asset/p1.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 2"
+               loading="lazy" />
+        </picture>
+      </div>
+
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/p2.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Craftsman working on teak root lion sculpture handmade from driftwood Indonesia">
+        <picture>
+          <source srcset="asset/gallery/avif/2.avif" type="image/avif" />
+          <source srcset="asset/p2.webp" type="image/webp" />
+          <img src="asset/p2.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 3"
+               loading="lazy" />
+        </picture>
       </div>
+
       <!-- Item 4 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/p3.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Artisan finishing teak root horse sculpture sustainable driftwood craft Indonesia">
+        <picture>
+          <source srcset="asset/gallery/avif/3.avif" type="image/avif" />
+          <source srcset="asset/p3.webp" type="image/webp" />
+          <img src="asset/p3.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 4"
+               loading="lazy" />
+        </picture>
       </div>
 
       <!-- Item 5 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="asset/p4.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Indonesian craftsman carving teak root sculpture at Rootecraft workshop">
+        <picture>
+          <source srcset="asset/gallery/avif/4.avif" type="image/avif" />
+          <source srcset="asset/p4.webp" type="image/webp" />
+          <img src="asset/p4.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 5"
+               loading="lazy" />
+        </picture>
       </div>
+
       <!-- Item 6 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/p5.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Artisan shaping reclaimed teak root into handmade furniture and sculptures">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/p6.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Indonesian artisan handcrafting large teak root sculpture in Rootecraft studio">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/1.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handcrafted driftwood bull sculptures made from reclaimed teak root, Indonesian artisan work">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/2.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Traditional carved teak wood door handmade by Indonesian craftsmen for luxury home décor">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/3.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Natural teak root leaf sculpture handmade eco-style home decoration from Indonesia">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/4.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Rustic driftwood horse sculptures crafted from reclaimed teak roots, sustainable art décor">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/5.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Wholesale driftwood horse sculptures handmade from teak root by Indonesian artisans">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/6.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Eco-style driftwood lion sculptures made from reclaimed teak root, outdoor garden decoration">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/7.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handmade teak root human figure sculptures for unique eco-style interior and exterior décor">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/8.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Indonesian carved teak wood door with intricate patterns, handmade for traditional luxury homes">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/9.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Artisan-made teak root pig sculptures crafted from reclaimed driftwood for rustic decoration">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/10.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Handmade teak root furniture set with natural table and chairs for eco-style interior design">
-    </div>
-    <!-- Item 5 -->
-    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="asset/11.webp" class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Rustic teak root bird sculpture handmade from driftwood, sustainable Indonesian art décor">
-    </div>
-</div>
-<div class="flex justify-center items-center pt-4">
-    <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="text-primary hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
-            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="4"
-     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7M19 19l-7-7 7-7"/>
-</svg>
+        <picture>
+          <source srcset="asset/gallery/avif/5.avif" type="image/avif" />
+          <source srcset="asset/p5.webp" type="image/webp" />
+          <img src="asset/p5.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 6"
+               loading="lazy" />
+        </picture>
+      </div>
 
-            <span class="sr-only">Previous</span>
+      <!-- Item 7 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/6.avif" type="image/avif" />
+          <source srcset="asset/p6.webp" type="image/webp" />
+          <img src="asset/p6.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 7"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 8 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/7.avif" type="image/avif" />
+          <source srcset="asset/p7.webp" type="image/webp" />
+          <img src="asset/p7.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 8"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 9 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/8.avif" type="image/avif" />
+          <source srcset="asset/p8.webp" type="image/webp" />
+          <img src="asset/p8.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 9"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 10 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/9.avif" type="image/avif" />
+          <source srcset="asset/p9.webp" type="image/webp" />
+          <img src="asset/p9.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 10"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 11 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/10.avif" type="image/avif" />
+          <source srcset="asset/p10.webp" type="image/webp" />
+          <img src="asset/p10.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 11"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 12 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/11.avif" type="image/avif" />
+          <source srcset="asset/p11.webp" type="image/webp" />
+          <img src="asset/p11.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 12"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 13 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p1.avif" type="image/avif" />
+          <source srcset="asset/p12.webp" type="image/webp" />
+          <img src="asset/p12.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 13"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 14 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p2.avif" type="image/avif" />
+          <source srcset="asset/p13.webp" type="image/webp" />
+          <img src="asset/p13.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 14"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 15 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p3.avif" type="image/avif" />
+          <source srcset="asset/p14.webp" type="image/webp" />
+          <img src="asset/p14.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 15"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 16 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p4.avif" type="image/avif" />
+          <source srcset="asset/p15.webp" type="image/webp" />
+          <img src="asset/p15.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 16"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 17 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p5.avif" type="image/avif" />
+          <source srcset="asset/p16.webp" type="image/webp" />
+          <img src="asset/p16.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 17"
+               loading="lazy" />
+        </picture>
+      </div>
+
+      <!-- Item 18 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <picture>
+          <source srcset="asset/gallery/avif/p6.avif" type="image/avif" />
+          <source srcset="asset/p17.webp" type="image/webp" />
+          <img src="asset/p17.jpg"
+               class="absolute block max-w-full h-[448px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+               alt="Gallery Item 18"
+               loading="lazy" />
+        </picture>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="flex justify-center items-center pt-4">
+      <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="text-primary hover:text-gray-900 group-focus:text-gray-900">
+          <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="4"
+               viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7M19 19l-7-7 7-7"/>
+          </svg>
+          <span class="sr-only">Previous</span>
         </span>
-    </button>
-    <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="text-primary hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
-            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="4"
-     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"/>
-</svg>
-            <span class="sr-only">Next</span>
+      </button>
+      <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="text-primary hover:text-gray-900 group-focus:text-gray-900">
+          <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" stroke-width="4"
+               viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"/>
+          </svg>
+          <span class="sr-only">Next</span>
         </span>
-    </button>
-</div>
-</div>
-<div>
-  </section>
+      </button>
+    </div>
+  </div>
+</section>
+
     <!-- Gallery -->
 
-    <!-- NEWS -->
+    <!-- Articles -->
     <section id="Articles" class=" pt-20 container mx-auto text-center px-4">
-      <div class="mt-32 container">
+      <div class="mx-32 container">
         <div class="w-full mx-auto">
           <div class="text-center">
             <h2 class="text-primary lg:text-4xl text-lg font-semibold md:!leading-[50px] mb-6">Articles</h2>
@@ -401,9 +753,22 @@
           <div class="flex flex-wrap gap-20 lg:gap-12 mt-16 justify-center lg:text-2xl text-xs">
             <div class="cursor-pointer rounded overflow-hidden group lg:w-[30%] w-full">
               <div>
-                <a href="artikel 1.html" target="_blank"><h3 class="lg:text-xl hover:text-primary transition-all">Sustainable Home Decor with Teak Root Sculptures</h3> </a>
+                <a href="artikel 1.html" target="_blank"><h3 class="lg:text-xl hover:text-primary transition-all">Wooden Animal Sculpture: Sustainable Art from Reclaimed Teak Root</h3> </a>
                 <div class="mt-6">
-                  <a href="artikel 1.html" target="_blank"> <p class="text-milk text-justify lg:text-base hover:text-primary">Teak root sculptures are a timeless choice for those who value both sustainability and aesthetics. In today’s world of modern interior design, sustainable home décor is no longer just a passing trend — it has evolved into a conscious lifestyle. Homeowners, architects, and designers now seek eco-style décor that blends beauty, durability, and environmental responsibility. One remarkable option that continues to gain popularity is teak root sculptures. Crafted from reclaimed teak roots, these pieces are not only artistic but also a true statement of sustainability.</p>
+                  <a href="artikel 1.html" target="_blank"> <p class="text-milk text-justify lg:text-base hover:text-primary">Wooden animal sculptures are not just decorative items—they are a fusion of nature, sustainability, and craftsmanship. At Rootecraft, every sculpture is handcrafted from 100% reclaimed teak root, giving new life to discarded wood while preserving Indonesia’s rich artisanal tradition. Today, these sculptures are widely exported to Europe, the UK, and Australia, where eco-friendly and unique home décor is highly valued.</p>
+                </a></div>
+              </div>
+              <hr class="my-6" />
+              <div class="flex flex-wrap items-center gap-3 ">
+                <p class="lg:text-sm text-milk">By Rootecraft</p>
+              </div>              
+            </div>
+
+            <div class="cursor-pointer rounded overflow-hidden group lg:w-[30%] w-full">
+              <div>
+                <a href="artikel 1.html" target="_blank"><h3 class="lg:text-xl hover:text-primary transition-all">Wooden Animal Sculpture: Sustainable Art from Reclaimed Teak Root</h3> </a>
+                <div class="mt-6">
+                  <a href="artikel 1.html" target="_blank"> <p class="text-milk text-justify lg:text-base hover:text-primary">Wooden animal sculptures are not just decorative items—they are a fusion of nature, sustainability, and craftsmanship. At Rootecraft, every sculpture is handcrafted from 100% reclaimed teak root, giving new life to discarded wood while preserving Indonesia’s rich artisanal tradition. Today, these sculptures are widely exported to Europe, the UK, and Australia, where eco-friendly and unique home décor is highly valued.</p>
                 </a></div>
               </div>
               <hr class="my-6" />
@@ -414,22 +779,9 @@
 
             <div class="cursor-pointer rounded overflow-hidden group lg:w-[30%] w-full">
               <div>
-                <a href="artikel 1.html" target="_blank"><h3 class="lg:text-xl hover:text-primary transition-all">Sustainable Home Decor with Teak Root Sculptures</h3> </a>
+                <a href="artikel 1.html" target="_blank"><h3 class="lg:text-xl hover:text-primary transition-all">Wooden Animal Sculpture: Sustainable Art from Reclaimed Teak Root</h3> </a>
                 <div class="mt-6">
-                  <a href="artikel 1.html" target="_blank"> <p class="text-milk text-justify lg:text-base hover:text-primary">Teak root sculptures are a timeless choice for those who value both sustainability and aesthetics. In today’s world of modern interior design, sustainable home décor is no longer just a passing trend — it has evolved into a conscious lifestyle. Homeowners, architects, and designers now seek eco-style décor that blends beauty, durability, and environmental responsibility. One remarkable option that continues to gain popularity is teak root sculptures. Crafted from reclaimed teak roots, these pieces are not only artistic but also a true statement of sustainability.</p>
-                </a></div>
-              </div>
-              <hr class="my-6" />
-              <div class="flex flex-wrap items-center gap-3 ">
-                <p class="lg:text-sm text-milk">By Rootecraft</p>
-              </div>
-            </div>
-
-            <div class="cursor-pointer rounded overflow-hidden group lg:w-[30%] w-full">
-              <div>
-                <a href="artikel 1.html" target="_blank"><h3 class="lg:text-xl hover:text-primary transition-all">Sustainable Home Decor with Teak Root Sculptures</h3> </a>
-                <div class="mt-6">
-                  <a href="artikel 1.html" target="_blank"> <p class="text-milk text-justify lg:text-base hover:text-primary">Teak root sculptures are a timeless choice for those who value both sustainability and aesthetics. In today’s world of modern interior design, sustainable home décor is no longer just a passing trend — it has evolved into a conscious lifestyle. Homeowners, architects, and designers now seek eco-style décor that blends beauty, durability, and environmental responsibility. One remarkable option that continues to gain popularity is teak root sculptures. Crafted from reclaimed teak roots, these pieces are not only artistic but also a true statement of sustainability.</p>
+                  <a href="artikel 1.html" target="_blank"> <p class="text-milk text-justify lg:text-base hover:text-primary">Wooden animal sculptures are not just decorative items—they are a fusion of nature, sustainability, and craftsmanship. At Rootecraft, every sculpture is handcrafted from 100% reclaimed teak root, giving new life to discarded wood while preserving Indonesia’s rich artisanal tradition. Today, these sculptures are widely exported to Europe, the UK, and Australia, where eco-friendly and unique home décor is highly valued.</p>
                 </a></div>
               </div>
               <hr class="my-6" />
@@ -447,37 +799,65 @@
 
     <!-- TEAM -->
       <section id="Team" class="pt-20 bg-dark">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-            <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-                <h2 class="mb-4 text-lg lg:text-4xl tracking-tight font-extrabold text-primary">Our team</h2>
-            </div>
-             <!-- First Member  -->
-            <div class=" flex flex-wrap text-center justify-center gap-9 lg:gap-36">
-                <div class="text-center text-gray-500 dark:text-gray-400">
-                    <img class="mx-auto mb-4 w-64 h-auto" src="asset/KURNIANTO PRATAMA.webp" alt="Kurnianto Pratama Team founder">
-                    <h3 class="pt-3 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                      <p><span class="text-primary">Kurnianto </span>Pratama</p>
-                    </h3>
-                </div>
-                <!-- Sedond member -->
-                <div class="text-center text-gray-500 dark:text-gray-400">
-                    <img class="mx-auto mb-4 w-64 h-auto" src="asset/HENGKI ANANTA PUTRA.webp " alt="Hengki ananta putra team founder">
-                    <h3 class="pt-3 mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"><p><span class="text-primary">Hengki </span>Ananta</p>
-                    </h3>
-                </div>
-                <!-- Third Member -->
-                <div class="text-center text-gray-500 dark:text-gray-400">
-                    <img class="mx-auto mb-4 w-64 h-auto" src="asset/ARIEF SULISTYO WIBOWO.webp" alt="arief Sulistyo wibowo team founder">
-                    <h3 class="pt-3 mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"><p><span class="text-primary">Arief </span>Sulistyo</p></h3>
-                </div>
-                <!-- Fourth Member -->
-                <div class="text-center text-gray-500 dark:text-gray-400">
-                  <img class="mx-auto mb-4 w-64 h-64 h-auto" src="asset/AMIN SUJIANTO.webp" alt="amin sujianto team founder">
-                  <h3 class="pt-3 mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white"><p><span class="text-primary">Amin </span>Sujianto</p></h3>
-              </div>
-            </div>  
-        </div>
-      </section>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+    <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+      <h2 class="mb-4 text-lg lg:text-4xl tracking-tight font-extrabold text-primary">Our team</h2>
+    </div>
+    <!-- Team Wrapper -->
+    <div class="flex flex-wrap text-center justify-center gap-9 lg:gap-36">
+
+      <!-- First Member -->
+      <div class="text-center text-gray-500 dark:text-gray-400">
+        <picture>
+          <source srcset="asset/team/avif/anto.avif" type="image/avif" />
+          <source srcset="asset/team/webp/anto.webp" type="image/webp" />
+          <img class="mx-auto mb-4 w-64 h-auto" src="asset/team/jpg/anto.jpg" alt="Kurnianto Pratama Team founder" loading="lazy">
+        </picture>
+        <h3 class="pt-3 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <p><span class="text-primary">Kurnianto </span>Pratama</p>
+        </h3>
+      </div>
+
+      <!-- Second Member -->
+      <div class="text-center text-gray-500 dark:text-gray-400">
+        <picture>
+          <source srcset="asset/team/avif/hengki.avif" type="image/avif" />
+          <source srcset="asset/team/webp/hengki.webp" type="image/webp" />
+          <img class="mx-auto mb-4 w-64 h-auto" src="asset/team/jpg/hengki.jpg" alt="Hengki Ananta Putra Team founder" loading="lazy">
+        </picture>
+        <h3 class="pt-3 mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <p><span class="text-primary">Hengki </span>Ananta</p>
+        </h3>
+      </div>
+
+      <!-- Third Member -->
+      <div class="text-center text-gray-500 dark:text-gray-400">
+        <picture>
+          <source srcset="asset/team/avif/arief.avif" type="image/avif" />
+          <source srcset="asset/team/webp/arief.webp" type="image/webp" />
+          <img class="mx-auto mb-4 w-64 h-auto" src="asset/team/jpg/arief.jpg" alt="Arief Sulistyo Wibowo Team founder" loading="lazy">
+        </picture>
+        <h3 class="pt-3 mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <p><span class="text-primary">Arief </span>Sulistyo</p>
+        </h3>
+      </div>
+
+      <!-- Fourth Member -->
+      <div class="text-center text-gray-500 dark:text-gray-400">
+        <picture>
+          <source srcset="asset/team/avif/amin.avif" type="image/avif" />
+          <source srcset="asset/team/webp/amin.webp" type="image/webp" />
+          <img class="mx-auto mb-4 w-64 h-auto" src="asset/team/jpg/amin.jpg" alt="Amin Sujianto Team founder" loading="lazy">
+        </picture>
+        <h3 class="pt-3 mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+          <p><span class="text-primary">Amin </span>Sujianto</p>
+        </h3>
+      </div>
+
+    </div>  
+  </div>
+</section>
+
     <!-- TEAM -->
 
     <!-- contact start -->
@@ -570,10 +950,25 @@
           </div>
         </div>
         <div class="w-full flex justify-center items-center gap-6 mt-4">
-        <img src="asset/perhutani.png" alt="Sertifikat SVLK" class="w-24 lg:w-20">
-        <img src="asset/svlk.png" alt="Sertifikat SVLK" class="w-24 lg:w-20">
-        <img src="asset/kemendag.png" alt="Sertifikat SVLK" class="w-24 lg:w-20">
-        </div>
+  <picture>
+    <source srcset="asset/logo/avif/perhutani.avif" type="image/avif">
+    <source srcset="asset/perhutani.webp" type="image/webp">
+    <img src="asset/perhutani.png" alt="Sertifikat Perhutani" class="w-24 lg:w-20" loading="lazy">
+  </picture>
+
+  <picture>
+    <source srcset="asset/logo/avif/svlk.avif" type="image/avif">
+    <source srcset="asset/svlk.webp" type="image/webp">
+    <img src="asset/svlk.png" alt="Sertifikat SVLK" class="w-24 lg:w-20" loading="lazy">
+  </picture>
+
+  <picture>
+    <source srcset="asset/logo/avif/kemendag.avif" type="image/avif">
+    <source srcset="asset/kemendag.webp" type="image/webp">
+    <img src="asset/kemendag.png" alt="Sertifikat Kemendag" class="w-24 lg:w-20" loading="lazy">
+  </picture>
+</div>
+
       </div>
     </section>
     <!-- contact end -->
