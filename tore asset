@@ -1,0 +1,332 @@
+[33mcommit 84411d05500e95668047d044cef77ebd05a0523e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Mon Nov 24 22:18:13 2025 +0700
+
+    Remove asset folder
+
+ asset/ANTO.jpg                                        | Bin [31m131681[m -> [32m0[m bytes
+ asset/Rootecraft_logo.png                             | Bin [31m250552[m -> [32m0[m bytes
+ ...WhatsApp Image 2025-09-29 at 08.40.11_15397441.jpg | Bin [31m19831[m -> [32m0[m bytes
+ ...WhatsApp Image 2025-09-29 at 08.40.11_9910e8d7.jpg | Bin [31m27150[m -> [32m0[m bytes
+ ...WhatsApp Image 2025-09-29 at 08.40.12_41b1d744.jpg | Bin [31m26985[m -> [32m0[m bytes
+ ...WhatsApp Image 2025-09-29 at 08.40.12_dd868c0f.jpg | Bin [31m29204[m -> [32m0[m bytes
+ asset/a1/avif/Craftsmanship.avif                      | Bin [31m59679[m -> [32m0[m bytes
+ asset/a1/avif/Teak root.avif                          | Bin [31m229423[m -> [32m0[m bytes
+ asset/a1/avif/moderenanimalsculpture.avif             | Bin [31m278276[m -> [32m0[m bytes
+ asset/a1/avif/teakrootanimalsculpture.avif            | Bin [31m212550[m -> [32m0[m bytes
+ asset/a1/avif/woodenhorsesculpture.avif               | Bin [31m268173[m -> [32m0[m bytes
+ asset/a1/jpg/Craftsmanship.jpg                        | Bin [31m97648[m -> [32m0[m bytes
+ asset/a1/jpg/Teak root.jpg                            | Bin [31m210202[m -> [32m0[m bytes
+ asset/a1/jpg/Wooden Horse Sculpture.jpg               | Bin [31m272380[m -> [32m0[m bytes
+ asset/a1/jpg/moderenanimalsculpture.jpg               | Bin [31m306710[m -> [32m0[m bytes
+ asset/a1/jpg/teakrootanimal sculpture.jpg             | Bin [31m247789[m -> [32m0[m bytes
+ asset/amin.webp                                       | Bin [31m3327340[m -> [32m0[m bytes
+ asset/archive.zip                                     | Bin [31m856458[m -> [32m0[m bytes
+ asset/arief.webp                                      | Bin [31m4927304[m -> [32m0[m bytes
+ asset/artikel11.jpg                                   | Bin [31m264923[m -> [32m0[m bytes
+ asset/artikel12.jpg                                   | Bin [31m166833[m -> [32m0[m bytes
+ asset/artikel13.jpg                                   | Bin [31m244251[m -> [32m0[m bytes
+ asset/artikel14.jpg                                   | Bin [31m299652[m -> [32m0[m bytes
+ asset/artikel21.jpg                                   | Bin [31m135350[m -> [32m0[m bytes
+ asset/artikel22.jpg                                   | Bin [31m142113[m -> [32m0[m bytes
+ asset/bgherosec.avif                                  | Bin [31m856310[m -> [32m0[m bytes
+ asset/bgherosec.webp                                  | Bin [31m2079396[m -> [32m0[m bytes
+ asset/gallery/avif/1.avif                             | Bin [31m287085[m -> [32m0[m bytes
+ asset/gallery/avif/10.avif                            | Bin [31m252755[m -> [32m0[m bytes
+ asset/gallery/avif/11.avif                            | Bin [31m421958[m -> [32m0[m bytes
+ asset/gallery/avif/2.avif                             | Bin [31m427840[m -> [32m0[m bytes
+ asset/gallery/avif/3.avif                             | Bin [31m211620[m -> [32m0[m bytes
+ asset/gallery/avif/4.avif                             | Bin [31m390059[m -> [32m0[m bytes
+ asset/gallery/avif/5.avif                             | Bin [31m524178[m -> [32m0[m bytes
+ asset/gallery/avif/6.avif                             | Bin [31m652113[m -> [32m0[m bytes
+ asset/gallery/avif/7.avif                             | Bin [31m391138[m -> [32m0[m bytes
+ asset/gallery/avif/8.avif                             | Bin [31m427840[m -> [32m0[m bytes
+ asset/gallery/avif/9.avif                             | Bin [31m282380[m -> [32m0[m bytes
+ asset/gallery/avif/p1.avif                            | Bin [31m97591[m -> [32m0[m bytes
+ asset/gallery/avif/p2.avif                            | Bin [31m285185[m -> [32m0[m bytes
+ asset/gallery/avif/p3.avif                            | Bin [31m387154[m -> [32m0[m bytes
+ asset/gallery/avif/p4.avif                            | Bin [31m199126[m -> [32m0[m bytes
+ asset/gallery/avif/p5.avif                            | Bin [31m85043[m -> [32m0[m bytes
+ asset/gallery/avif/p6.avif                            | Bin [31m176917[m -> [32m0[m bytes
+ asset/gallery/webg/1.webp                             | Bin [31m1021416[m -> [32m0[m bytes
+ asset/gallery/webg/10.webp                            | Bin [31m878828[m -> [32m0[m bytes
+ asset/gallery/webg/11.webp                            | Bin [31m1295128[m -> [32m0[m bytes
+ asset/gallery/webg/2.webp                             | Bin [31m1343320[m -> [32m0[m bytes
+ asset/gallery/webg/3.webp                             | Bin [31m812994[m -> [32m0[m bytes
+ asset/gallery/webg/4.webp                             | Bin [31m1250986[m -> [32m0[m bytes
+ asset/gallery/webg/5.webp                             | Bin [31m1533364[m -> [32m0[m bytes
+ asset/gallery/webg/6.webp                             | Bin [31m1785354[m -> [32m0[m bytes
+ asset/gallery/webg/7.webp                             | Bin [31m1252120[m -> [32m0[m bytes
+ asset/gallery/webg/8.webp                             | Bin [31m1343320[m -> [32m0[m bytes
+ asset/gallery/webg/9.webp                             | Bin [31m1023736[m -> [32m0[m bytes
+ asset/gallery/webg/p1.webp                            | Bin [31m366418[m -> [32m0[m bytes
+ asset/gallery/webg/p2.webp                            | Bin [31m1009998[m -> [32m0[m bytes
+ asset/gallery/webg/p3.webp                            | Bin [31m1241028[m -> [32m0[m bytes
+ asset/gallery/webg/p4.webp                            | Bin [31m512172[m -> [32m0[m bytes
+ asset/gallery/webg/p5.webp                            | Bin [31m320584[m -> [32m0[m bytes
+ asset/gallery/webg/p6.webp                            | Bin [31m489582[m -> [32m0[m bytes
+ asset/hengki.webp                                     | Bin [31m4179076[m -> [32m0[m bytes
+ asset/iconemail1.png                                  | Bin [31m18212[m -> [32m0[m bytes
+ asset/kurnianto.webp                                  | Bin [31m2791308[m -> [32m0[m bytes
+ asset/logo/avif/kemendag.avif                         | Bin [31m129997[m -> [32m0[m bytes
+ asset/logo/avif/perhutani.avif                        | Bin [31m41635[m -> [32m0[m bytes
+ asset/logo/avif/rootecraft.avif                       | Bin [31m79369[m -> [32m0[m bytes
+ asset/logo/avif/svlk.avif                             | Bin [31m283767[m -> [32m0[m bytes
+ asset/logo/wepg/kemendag.png                          | Bin [31m1199468[m -> [32m0[m bytes
+ asset/logo/wepg/perhutani.png                         | Bin [31m72342[m -> [32m0[m bytes
+ asset/logo/wepg/rootecraft.png                        | Bin [31m302768[m -> [32m0[m bytes
+ asset/logort.png                                      | Bin [31m391799[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp1.avif                       | Bin [31m46969[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp10.avif                      | Bin [31m35460[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp11.avif                      | Bin [31m85320[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp12.avif                      | Bin [31m81084[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp13.avif                      | Bin [31m54427[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp14.avif                      | Bin [31m30430[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp2.avif                       | Bin [31m53215[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp3.avif                       | Bin [31m115493[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp4.avif                       | Bin [31m122332[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp5.avif                       | Bin [31m60481[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp6.avif                       | Bin [31m83567[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp7.avif                       | Bin [31m85764[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp8.avif                       | Bin [31m122677[m -> [32m0[m bytes
+ asset/masterpiece/avif/mp9.avif                       | Bin [31m81574[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp1.png                        | Bin [31m1426186[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp10.webp                      | Bin [31m147056[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp11.webp                      | Bin [31m231328[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp12.webp                      | Bin [31m306412[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp13.webp                      | Bin [31m206390[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp14.webp                      | Bin [31m117842[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp2.webp                       | Bin [31m189814[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp3.webp                       | Bin [31m1801340[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp4.webp                       | Bin [31m1754422[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp5.webp                       | Bin [31m968430[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp6.webp                       | Bin [31m1164080[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp7.webp                       | Bin [31m375184[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp8.webp                       | Bin [31m466984[m -> [32m0[m bytes
+ asset/masterpiece/wepg/mp9.webp                       | Bin [31m265358[m -> [32m0[m bytes
+ asset/svlk.png                                        | Bin [31m1289219[m -> [32m0[m bytes
+ asset/team/avif/amin.avif                             | Bin [31m30000[m -> [32m0[m bytes
+ asset/team/avif/anto.avif                             | Bin [31m32327[m -> [32m0[m bytes
+ asset/team/avif/arief.avif                            | Bin [31m32414[m -> [32m0[m bytes
+ asset/team/avif/hengki.avif                           | Bin [31m31660[m -> [32m0[m bytes
+ asset/team/webg/AMIN SUJIANTO.webp                    | Bin [31m58332[m -> [32m0[m bytes
+ asset/team/webg/ARIEF SULISTYO WIBOWO.webp            | Bin [31m60386[m -> [32m0[m bytes
+ asset/team/webg/HENGKI ANANTA PUTRA.webp              | Bin [31m58946[m -> [32m0[m bytes
+ asset/team/webg/KURNIANTO PRATAMA.webp                | Bin [31m53640[m -> [32m0[m bytes
+ asset/val1.png                                        | Bin [31m57620[m -> [32m0[m bytes
+ asset/val2.png                                        | Bin [31m75181[m -> [32m0[m bytes
+ asset/val3.png                                        | Bin [31m58844[m -> [32m0[m bytes
+ asset/val4.png                                        | Bin [31m52604[m -> [32m0[m bytes
+ asset/val5.png                                        | Bin [31m36477[m -> [32m0[m bytes
+ asset/val6.png                                        | Bin [31m58305[m -> [32m0[m bytes
+ 115 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit f75f94c5b04cb8d21fae7719f01c2f4fff5946bc[m
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Mon Nov 24 21:41:27 2025 +0700
+
+    updte favicon
+
+ index.html | 12 [32m++++++++[m[31m----[m
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+[33mcommit d34155db2def925dea1845060323403b9acfb7e4[m
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Wed Nov 19 21:59:09 2025 +0700
+
+    fix merge conflict
+
+ index.html | 34 [31m----------------------------------[m
+ 1 file changed, 34 deletions(-)
+
+[33mcommit 2bd811cfc90f9d627e81dcc28c5206c140aa2a5d[m
+Merge: 93aa6ef a83d812
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Wed Nov 19 21:27:59 2025 +0700
+
+    merge local + remote
+
+[33mcommit 93aa6ef0177158b45234815a095f03aece1e27e0[m
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Wed Nov 19 21:24:45 2025 +0700
+
+    repair favicon
+
+ ...{Rootecraft_logo_trans.avif => rootecraft.avif} |  Bin
+ .../{Rootecraft_logo_trans.png => rootecraft.png}  |  Bin
+ index.html                                         | 1808 [32m++++++++++[m[31m----------[m
+ 3 files changed, 860 insertions(+), 948 deletions(-)
+
+[33mcommit a83d812cdd461da2e8d3e99e9e656afb2f4941ea[m
+Author: rootecraft <ariefwiyunda12@gmail.com>
+Date:   Tue Nov 18 17:34:13 2025 +0700
+
+    Update index.html
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit d3ce39107c58eef44c41c9c73fb228a7e498e2cb[m
+Author: rootecraft <ariefwiyunda12@gmail.com>
+Date:   Tue Nov 18 17:32:51 2025 +0700
+
+    Update index.html
+
+ index.html | 4 [32m++[m[31m--[m
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit bc3d26e480561147ff9bbc099a1fd9f4ae26ff32[m
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Fri Oct 3 21:29:01 2025 +0700
+
+    update avif
+
+ artikel 1.html                                   | 166 [32m+++[m[31m--[m
+ asset/a1/avif/Craftsmanship.avif                 | Bin [31m0[m -> [32m59679[m bytes
+ asset/a1/avif/Teak root.avif                     | Bin [31m0[m -> [32m229423[m bytes
+ asset/a1/avif/moderenanimalsculpture.avif        | Bin [31m0[m -> [32m278276[m bytes
+ asset/a1/avif/teakrootanimalsculpture.avif       | Bin [31m0[m -> [32m212550[m bytes
+ asset/a1/avif/woodenhorsesculpture.avif          | Bin [31m0[m -> [32m268173[m bytes
+ asset/a1/jpg/Craftsmanship.jpg                   | Bin [31m0[m -> [32m97648[m bytes
+ asset/a1/jpg/Teak root.jpg                       | Bin [31m0[m -> [32m210202[m bytes
+ asset/a1/jpg/Wooden Horse Sculpture.jpg          | Bin [31m0[m -> [32m272380[m bytes
+ asset/a1/jpg/moderenanimalsculpture.jpg          | Bin [31m0[m -> [32m306710[m bytes
+ asset/a1/jpg/teakrootanimal sculpture.jpg        | Bin [31m0[m -> [32m247789[m bytes
+ asset/archive.zip                                | Bin [31m0[m -> [32m856458[m bytes
+ asset/bgherosec.avif                             | Bin [31m0[m -> [32m856310[m bytes
+ asset/gallery/avif/1.avif                        | Bin [31m0[m -> [32m287085[m bytes
+ asset/gallery/avif/10.avif                       | Bin [31m0[m -> [32m252755[m bytes
+ asset/gallery/avif/11.avif                       | Bin [31m0[m -> [32m421958[m bytes
+ asset/gallery/avif/2.avif                        | Bin [31m0[m -> [32m427840[m bytes
+ asset/gallery/avif/3.avif                        | Bin [31m0[m -> [32m211620[m bytes
+ asset/gallery/avif/4.avif                        | Bin [31m0[m -> [32m390059[m bytes
+ asset/gallery/avif/5.avif                        | Bin [31m0[m -> [32m524178[m bytes
+ asset/gallery/avif/6.avif                        | Bin [31m0[m -> [32m652113[m bytes
+ asset/gallery/avif/7.avif                        | Bin [31m0[m -> [32m391138[m bytes
+ asset/gallery/avif/8.avif                        | Bin [31m0[m -> [32m427840[m bytes
+ asset/gallery/avif/9.avif                        | Bin [31m0[m -> [32m282380[m bytes
+ asset/gallery/avif/p1.avif                       | Bin [31m0[m -> [32m97591[m bytes
+ asset/gallery/avif/p2.avif                       | Bin [31m0[m -> [32m285185[m bytes
+ asset/gallery/avif/p3.avif                       | Bin [31m0[m -> [32m387154[m bytes
+ asset/gallery/avif/p4.avif                       | Bin [31m0[m -> [32m199126[m bytes
+ asset/gallery/avif/p5.avif                       | Bin [31m0[m -> [32m85043[m bytes
+ asset/gallery/avif/p6.avif                       | Bin [31m0[m -> [32m176917[m bytes
+ asset/{ => gallery/webg}/1.webp                  | Bin
+ asset/{ => gallery/webg}/10.webp                 | Bin
+ asset/{ => gallery/webg}/11.webp                 | Bin
+ asset/{ => gallery/webg}/2.webp                  | Bin
+ asset/{ => gallery/webg}/3.webp                  | Bin
+ asset/{ => gallery/webg}/4.webp                  | Bin
+ asset/{ => gallery/webg}/5.webp                  | Bin
+ asset/{ => gallery/webg}/6.webp                  | Bin
+ asset/{ => gallery/webg}/7.webp                  | Bin
+ asset/{ => gallery/webg}/8.webp                  | Bin
+ asset/{ => gallery/webg}/9.webp                  | Bin
+ asset/{ => gallery/webg}/p1.webp                 | Bin
+ asset/{ => gallery/webg}/p2.webp                 | Bin
+ asset/{ => gallery/webg}/p3.webp                 | Bin
+ asset/{ => gallery/webg}/p4.webp                 | Bin
+ asset/{ => gallery/webg}/p5.webp                 | Bin
+ asset/{ => gallery/webg}/p6.webp                 | Bin
+ asset/logo/avif/Rootecraft_logo_trans.avif       | Bin [31m0[m -> [32m79369[m bytes
+ asset/logo/avif/kemendag.avif                    | Bin [31m0[m -> [32m129997[m bytes
+ asset/logo/avif/perhutani.avif                   | Bin [31m0[m -> [32m41635[m bytes
+ asset/logo/avif/svlk.avif                        | Bin [31m0[m -> [32m283767[m bytes
+ asset/{ => logo/wepg}/Rootecraft_logo_trans.png  | Bin
+ asset/{ => logo/wepg}/kemendag.png               | Bin
+ asset/{ => logo/wepg}/perhutani.png              | Bin
+ asset/masterpiece/avif/mp1.avif                  | Bin [31m0[m -> [32m46969[m bytes
+ asset/masterpiece/avif/mp10.avif                 | Bin [31m0[m -> [32m35460[m bytes
+ asset/masterpiece/avif/mp11.avif                 | Bin [31m0[m -> [32m85320[m bytes
+ asset/masterpiece/avif/mp12.avif                 | Bin [31m0[m -> [32m81084[m bytes
+ asset/masterpiece/avif/mp13.avif                 | Bin [31m0[m -> [32m54427[m bytes
+ asset/masterpiece/avif/mp14.avif                 | Bin [31m0[m -> [32m30430[m bytes
+ asset/masterpiece/avif/mp2.avif                  | Bin [31m0[m -> [32m53215[m bytes
+ asset/masterpiece/avif/mp3.avif                  | Bin [31m0[m -> [32m115493[m bytes
+ asset/masterpiece/avif/mp4.avif                  | Bin [31m0[m -> [32m122332[m bytes
+ asset/masterpiece/avif/mp5.avif                  | Bin [31m0[m -> [32m60481[m bytes
+ asset/masterpiece/avif/mp6.avif                  | Bin [31m0[m -> [32m83567[m bytes
+ asset/masterpiece/avif/mp7.avif                  | Bin [31m0[m -> [32m85764[m bytes
+ asset/masterpiece/avif/mp8.avif                  | Bin [31m0[m -> [32m122677[m bytes
+ asset/masterpiece/avif/mp9.avif                  | Bin [31m0[m -> [32m81574[m bytes
+ asset/{ => masterpiece/wepg}/mp1.png             | Bin
+ asset/{ => masterpiece/wepg}/mp10.webp           | Bin
+ asset/{ => masterpiece/wepg}/mp11.webp           | Bin
+ asset/{ => masterpiece/wepg}/mp12.webp           | Bin
+ asset/{ => masterpiece/wepg}/mp13.webp           | Bin
+ asset/{ => masterpiece/wepg}/mp14.webp           | Bin
+ asset/{ => masterpiece/wepg}/mp2.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp3.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp4.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp5.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp6.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp7.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp8.webp            | Bin
+ asset/{ => masterpiece/wepg}/mp9.webp            | Bin
+ asset/team/avif/amin.avif                        | Bin [31m0[m -> [32m30000[m bytes
+ asset/team/avif/anto.avif                        | Bin [31m0[m -> [32m32327[m bytes
+ asset/team/avif/arief.avif                       | Bin [31m0[m -> [32m32414[m bytes
+ asset/team/avif/hengki.avif                      | Bin [31m0[m -> [32m31660[m bytes
+ asset/{ => team/webg}/AMIN SUJIANTO.webp         | Bin
+ asset/{ => team/webg}/ARIEF SULISTYO WIBOWO.webp | Bin
+ asset/{ => team/webg}/HENGKI ANANTA PUTRA.webp   | Bin
+ asset/{ => team/webg}/KURNIANTO PRATAMA.webp     | Bin
+ index.html                                       | 829 [32m+++++++++++++++++[m[31m------[m
+ 91 files changed, 718 insertions(+), 277 deletions(-)
+
+[33mcommit 23e55338a63d0057d34bbef10c2a384990190000[m
+Author: Arief <ariefwiyunda12@gmail.com>
+Date:   Mon Sep 29 22:01:20 2025 +0700
+
+    newest
+
+ artikel 1.html                                     | 136 [32m++++++++++++[m
+ artikel 2.html                                     | 136 [32m++++++++++++[m
+ artikel 3.html                                     | 136 [32m++++++++++++[m
+ asset/1.jpeg                                       | Bin [31m579038[m -> [32m0[m bytes
+ asset/1.webp                                       | Bin [31m0[m -> [32m1021416[m bytes
+ asset/10.jpeg                                      | Bin [31m509557[m -> [32m0[m bytes
+ asset/10.webp                                      | Bin [31m0[m -> [32m878828[m bytes
+ asset/11.jpeg                                      | Bin [31m719627[m -> [32m0[m bytes
+ asset/11.webp                                      | Bin [31m0[m -> [32m1295128[m bytes
+ asset/2.jpeg                                       | Bin [31m735722[m -> [32m0[m bytes
+ asset/2.webp                                       | Bin [31m0[m -> [32m1343320[m bytes
+ asset/3.jpeg                                       | Bin [31m481545[m -> [32m0[m bytes
+ asset/3.webp                                       | Bin [31m0[m -> [32m812994[m bytes
+ asset/4.jpeg                                       | Bin [31m651726[m -> [32m0[m bytes
+ asset/4.webp                                       | Bin [31m0[m -> [32m1250986[m bytes
+ asset/5.jpeg                                       | Bin [31m822794[m -> [32m0[m bytes
+ asset/5.webp                                       | Bin [31m0[m -> [32m1533364[m bytes
+ asset/6.jpeg                                       | Bin [31m999365[m -> [32m0[m bytes
+ asset/6.webp                                       | Bin [31m0[m -> [32m1785354[m bytes
+ asset/7.jpeg                                       | Bin [31m707711[m -> [32m0[m bytes
+ asset/7.webp                                       | Bin [31m0[m -> [32m1252120[m bytes
+ asset/8.jpeg                                       | Bin [31m735722[m -> [32m0[m bytes
+ asset/8.webp                                       | Bin [31m0[m -> [32m1343320[m bytes
+ asset/9.jpeg                                       | Bin [31m576153[m -> [32m0[m bytes
+ asset/9.webp                                       | Bin [31m0[m -> [32m1023736[m bytes
+ asset/AMIN SUJIANTO.webp                           | Bin [31m0[m -> [32m58332[m bytes
+ asset/ANTO.jpg                                     | Bin [31m0[m -> [32m131681[m bytes
+ asset/ARIEF SULISTYO WIBOWO.webp                   | Bin [31m0[m -> [32m60386[m bytes
+ asset/HENGKI ANANTA PUTRA.webp                     | Bin [31m0[m -> [32m58946[m bytes
+ asset/KURNIANTO PRATAMA.webp                       | Bin [31m0[m -> [32m53640[m bytes
+ asset/Rootecraft_logo.png                          | Bin [31m0[m -> [32m250552[m bytes
+ asset/Rootecraft_logo_trans.png                    | Bin [31m0[m -> [32m302768[m bytes
+ ...tsApp Image 2025-09-29 at 08.40.11_15397441.jpg | Bin [31m0[m -> [32m19831[m bytes
+ ...tsApp Image 2025-09-29 at 08.40.11_9910e8d7.jpg | Bin [31m0[m -> [32m27150[m bytes
+ ...tsApp Image 2025-09-29 at 08.40.12_41b1d744.jpg | Bin [31m0[m -> [32m26985[m bytes
+ ...tsApp Image 2025-09-29 at 08.40.12_dd868c0f.jpg | Bin [31m0[m -> [32m29204[m bytes
+ asset/amin.jpeg                                    | Bin [31m7842[m -> [32m0[m bytes
+ asset/amin.jpg                                     | Bin [31m2598027[m -> [32m0[m bytes
+ asset/amin.webp                                    | Bin [31m0[m -> [32m3327340[m bytes
+ asset/arief.jpg                                    | Bin [31m3272149[m -> [32m0[m bytes
+ asset/arief.webp                                   | Bin [31m0[m -> [32m4927304[m bytes
+ asset/artikel11.jpg                                | Bin [31m0[m -> [32m264923[m bytes
+ asset/artikel12.jpg                                | Bin [31m0[m -> [32m166833[m bytes
+ asset/artikel13.jpg                                | Bin [31m0[m -> [32m244251[m bytes
+ asset/artikel14.jpg                                | Bin [31m0[m -> [32m299652[m bytes
+ asset/artikel21.jpg                                | Bin [31m0[m -> [32m135350[m bytes
+ asset/artikel22.jpg                                | Bin [31m0[m -> [32m142113[m bytes
+ asset/banteng.jpeg                                 | Bin [31m85023[m -> [32m0[m bytes
+ asset/bgdino.jpg                                   | Bin [31m5824358[m -> [32m0[m bytes
+ asset/bgd
